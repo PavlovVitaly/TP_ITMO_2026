@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     direction TB
 
@@ -73,4 +74,4 @@ classDiagram
     User "1" --> "0..*" DailyDigest : receives
     DailyDigest "1" *-- "1..*" DigestAnalyticalItem : contains
     DigestAnalyticalItem "1" --> "1" AssetAdvertisement : evaluates
-
+```

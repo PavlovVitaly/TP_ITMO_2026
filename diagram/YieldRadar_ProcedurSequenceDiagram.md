@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor User as Пользователь (UI)
@@ -38,4 +39,4 @@ sequenceDiagram
 
         Main-->>-User: return {"status": "ok", "data": sorted_ads}
     end
-
+```

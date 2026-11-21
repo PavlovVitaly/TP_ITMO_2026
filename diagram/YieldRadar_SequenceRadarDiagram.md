@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor Investor as Начинающий / Pro инвестор
@@ -33,4 +34,4 @@ sequenceDiagram
             System-->>Investor: Вернуть список объектов с ROI и пометкой точности расчета [UC3, UC6]
         end
     end
-
+```

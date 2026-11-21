@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     autonumber
     actor Investor as currentUser : User
@@ -43,4 +44,4 @@ sequenceDiagram
         Controller->>Controller: sortItemsByROI(evaluatedItems)
         Controller-->>-Investor: return evaluatedItems : list[DigestAnalyticalItem]
     end
-
+```
