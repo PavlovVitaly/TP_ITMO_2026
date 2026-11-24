@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     direction TB
 
@@ -136,4 +137,4 @@ classDiagram
     SearchController *-- "1" AdvertisementRepository : содержит
     SearchController *-- "1" ROIScoringService : содержит
     SearchController ..> EmptyResultException : выбрасывает
-
+```
